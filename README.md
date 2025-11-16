@@ -4,8 +4,8 @@
   
 </div>
 
-A reproducible ML system from end-to-end data ingestion, feature engineering, model comparison, SMOTE-based imbalance correction, and CLI-driven training & evaluation workflows.
-Demonstrates how to go from raw CSV → cleaned features → baseline models → reproducible CLI pipeline, with optional SMOTE to address severe class imbalance.
+### A reproducible ML system from end-to-end data ingestion, feature engineering, model comparison, SMOTE-based imbalance correction, and CLI-driven training & evaluation workflows.
+### Demonstrates how to go from raw CSV → cleaned features → baseline models → reproducible CLI pipeline, with optional SMOTE to address severe class imbalance.
 
 ---
 
