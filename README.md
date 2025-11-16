@@ -1,6 +1,7 @@
 <div align="center">
   
   # Heart Attack Risk Prediction - In-Hospital Mortality ML Pipeline🫀  
+  ## (A Modular, Production-Style ML Pipeline with Class-Imbalance Handling)
   
 </div>
 
