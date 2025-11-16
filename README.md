@@ -107,6 +107,7 @@ a visualization of class distribution before and after applying SMOTE.
 python -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
+
 ````
 
 ### 2\. Place the Dataset
@@ -142,6 +143,7 @@ Outputs generated:
 
 ```bash
 python -m scripts.evaluate_model --model-path data/processed/trained_model.joblib
+
 ```
 
 ### 5\. Optional: Run the EDA Notebook
