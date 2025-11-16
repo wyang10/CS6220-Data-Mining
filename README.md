@@ -1,12 +1,11 @@
 <div align="center">
   
-  # 🫀 Heart Attack Risk Prediction — In-Hospital Mortality ML Pipeline 
-## （Modular, Production-Style ML Pipeline with Class-Imbalance Handling）
+  # Heart Attack Risk Prediction - In-Hospital Mortality ML Pipeline🫀  
   
 </div>
 
-- A reproducible ML system from end-to-end data ingestion, feature engineering, model comparison, SMOTE-based imbalance correction, and CLI-driven training & evaluation workflows.
-- Demonstrates how to go from raw CSV → cleaned features → baseline models → reproducible CLI pipeline, with optional SMOTE to address severe class imbalance.
+### A reproducible ML system from end-to-end data ingestion, feature engineering, model comparison, SMOTE-based imbalance correction, and CLI-driven training & evaluation workflows.
+### Demonstrates how to go from raw CSV → cleaned features → baseline models → reproducible CLI pipeline, with optional SMOTE to address severe class imbalance.
 
 ---
 
@@ -25,51 +24,10 @@
 
 ![Architecture Diagram](heart-attack-risk/assets/diagram.png)
 
----
-> <div align="center">
+![Heart Attack ML Pipeline](heart-attack-risk/assets/Architecture.png)
 
-> 
-> **DATA LAYER**
->
-> 1. Raw CSV (`whole_table.csv`)
-> 2. **src/data_loader.py** → minimal cleaning
->     * CHARGES coercion
->     * dtype fixing
->     * missing drop/clean
->   
-> **FEATURE ENGINEERING**
->
-> 3. **src/features.py**
->     * Train/Test Split
->     * OHE for categoricals
->     * Scaling numeric fields
->     * Optional SMOTE (`--smote`)
->
-> **MODELING LAYER**
->
-> 4. **src/models.py** → Model Factory
->     * Naive Bayes, KNN, Decision Tree, Logistic Regression, SVM, MLP
->     * Select model via CLI flag: `--model <name>`
->
-> **TRAINING / EVAL**
->
-> 5. **scripts/train.py** & **scripts/evaluate_model.py**
->     * fit model, compute metrics, save artifacts
->
-> **OUTPUT ARTIFACTS**
->
-> 6. **data/processed/**
->     * `trained_model.joblib` (final model)
->     * `scaler.joblib` (for numeric fields)
->     * `metrics.json` (recall, accuracy, reports)
->
-> **NOTEBOOK**
->
-> 7. **notebooks/heart_attack_eda.ipynb**
->     * EDA, feature exploration, visualizations (CM, ROC)
-> 
-> </div>
 ---
+
 
 ## 🛠️ Tech Stack
 
