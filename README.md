@@ -164,7 +164,8 @@ python -m scripts.train --model decision_tree --smote
 
 Example: Logistic Regression (no SMOTE)
 
-```bash
+```
+bash
 python -m scripts.train --model logistic_regression
 ```
 
