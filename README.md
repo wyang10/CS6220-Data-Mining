@@ -22,9 +22,9 @@
 
 ### 📊 Architecture Overview
 
-![Architecture Diagram](heart-attack-risk/assets/diagram.png)
-
-![Heart Attack ML Pipeline](heart-attack-risk/assets/Architecture.png)
+|Architecture Diagram | Heart Attack ML Pipeline |
+|:---------------:|:---------------:|
+|![Architecture Diagram](heart-attack-risk/assets/diagram.png)|![Heart Attack ML Pipeline](heart-attack-risk/assets/Architecture.png)|
 
 ---
 
