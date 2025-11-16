@@ -1,4 +1,4 @@
-# HeartAttack — CS6220 Data Mining Final Project
+# Heart Attack Risk Prediction 🫀
 
 Predicting in-hospital mortality for heart attack patients using classical machine learning models and class-imbalance techniques.
 
@@ -100,4 +100,4 @@ This project is for educational purposes only and should not be used for clinica
 
 ## 中文简介
 
-这是 CS6220 数据挖掘课程的期末项目，使用纽约州 1993 年心梗住院患者数据，基于人口学特征与住院信息，比较 6 种经典机器学习模型对住院死亡的预测能力，并评估 SMOTE 在类别不平衡（约 9:91）场景下的效果。主要结论：决策树在基线模型中表现最佳；引入 SMOTE 后，少数类（死亡）召回率明显提升。仓库包含可直接运行的 notebook 与数据集，安装 `requirements.txt` 后在本地即可复现。
+这个数据挖掘项目，使用纽约州 1993 年心梗住院患者数据，基于人口学特征与住院信息，比较 6 种经典机器学习模型对住院死亡的预测能力，并评估 SMOTE 在类别不平衡（约 9:91）场景下的效果。主要结论：决策树在基线模型中表现最佳；引入 SMOTE 后，少数类（死亡）召回率明显提升。仓库包含可直接运行的 notebook 与数据集，安装 `requirements.txt` 后在本地即可复现。
