@@ -1,4 +1,7 @@
+<div align="center">
+
 # 🫀 Heart Attack Risk Prediction — In-Hospital Mortality ML Pipeline
+</div>
 
 **Modular, Production-Style ML Pipeline with Class-Imbalance Handling**
 
@@ -24,7 +27,9 @@ Demonstrates how to go from raw CSV → cleaned features → baseline models →
 ![Architecture Diagram](heart-attack-risk/assets/diagram.png)
 
 ---
+> <div align="center">
 
+> 
 > **DATA LAYER**
 >
 > 1. Raw CSV (`whole_table.csv`)
@@ -32,7 +37,7 @@ Demonstrates how to go from raw CSV → cleaned features → baseline models →
 >     * CHARGES coercion
 >     * dtype fixing
 >     * missing drop/clean
->
+>   
 > **FEATURE ENGINEERING**
 >
 > 3. **src/features.py**
@@ -63,7 +68,8 @@ Demonstrates how to go from raw CSV → cleaned features → baseline models →
 >
 > 7. **notebooks/heart_attack_eda.ipynb**
 >     * EDA, feature exploration, visualizations (CM, ROC)
-
+> 
+> </div>
 ---
 
 ## 🛠️ Tech Stack
