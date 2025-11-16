@@ -24,7 +24,7 @@
 
 ![Architecture Diagram](heart-attack-risk/assets/diagram.png)
 
-![Heart Attack ML Pipeline](heart-attack-risk/assets/architecture.png)
+![Heart Attack ML Pipeline](heart-attack-risk/assets/Architecture.png)
 
 ---
 
