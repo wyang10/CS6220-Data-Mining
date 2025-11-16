@@ -1,13 +1,12 @@
 <div align="center">
-
-# 🫀 Heart Attack Risk Prediction — In-Hospital Mortality ML Pipeline
+  
+  # 🫀 Heart Attack Risk Prediction — In-Hospital Mortality ML Pipeline 
+## （Modular, Production-Style ML Pipeline with Class-Imbalance Handling）
+  
 </div>
 
-**Modular, Production-Style ML Pipeline with Class-Imbalance Handling**
-
-A reproducible ML system from end-to-end data ingestion, feature engineering, model comparison, SMOTE-based imbalance correction, and CLI-driven training & evaluation workflows.
-
-Demonstrates how to go from raw CSV → cleaned features → baseline models → reproducible CLI pipeline, with optional SMOTE to address severe class imbalance.
+- A reproducible ML system from end-to-end data ingestion, feature engineering, model comparison, SMOTE-based imbalance correction, and CLI-driven training & evaluation workflows.
+- Demonstrates how to go from raw CSV → cleaned features → baseline models → reproducible CLI pipeline, with optional SMOTE to address severe class imbalance.
 
 ---
 
